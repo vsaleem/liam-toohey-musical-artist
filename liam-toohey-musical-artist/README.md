@@ -1,75 +1,57 @@
-# React + TypeScript + Vite
+# Liam Toohey — Official Artist Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, immersive website designed to showcase Liam Toohey's musical identity, live performances, and artistic presence online.
 
-Currently, two official plugins are available:
+## 🎸 Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The Liam Toohey website was designed to establish a distinctive digital presence for an independent musical artist. The experience combines cinematic visuals, bold typography, and an atmospheric live-music aesthetic to create a website that feels like stepping into a live music venue.
 
-## React Compiler
+## 🎨 Design Concept: The Red Room
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The visual direction blends two creative concepts:
 
-## Expanding the ESLint configuration
+- **The After-Hours Artist:** Dark, cinematic, and atmospheric, drawing inspiration from intimate live music venues and dramatic stage lighting.
+- **The Live Music Experience:** Bold, energetic, and immersive, incorporating neon-inspired accents, striking imagery, and subtle interactive elements.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### Color Palette
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+| Color | Hex Code | Usage |
+|---|---|---|
+| Jet Black | `#090909` | Primary backgrounds |
+| Charcoal | `#171717` | Secondary backgrounds |
+| Stage Red | `#B5121B` | Primary accent |
+| Neon Red | `#FF202A` | Interactive elements and highlights |
+| Off White | `#F2F0ED` | Typography and contrast |
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## 🛠️ Technology
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+Update this section to reflect the technologies used in the project.
 
-```
+- Frontend: [React/Typescript + Vite]
+- Styling: [CSS]
+- Deployment: [Vercel]
+- Version Control: Git / GitHub
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+## 🔧 Future Enhancements
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Potential opportunities for future development include:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- Music streaming integrations.
+- Embedded performance videos.
+- Upcoming shows and event listings.
+- Photo and video gallery.
+- Booking and contact inquiry functionality.
+- Social media integrations.
+- Newsletter or fan subscription functionality.
 
-```
+## 👨‍💻 Development
+
+This project was designed and developed by **GlitterNGeek (GNG)**.
+
+GlitterNGeek creates modern digital experiences, websites, and technology solutions that help individuals and businesses establish and grow their online presence.
+
+**Website:** https://glitterngeek.com
+
+---
+
+*Designed to capture the atmosphere of live music and bring the artist's identity to the digital stage.*
